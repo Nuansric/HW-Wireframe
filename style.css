@@ -1,0 +1,74 @@
+/*The overall body paragraph style*/
+body{
+	width: 960px;
+	background-color: #777;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans- serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+/*Full width tabs characteristic*/
+header, nav, footer{
+	width: 700px;
+	margin: 5px 160px 0px 100px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: lightgrey;
+}
+
+/*Section Container*/
+section{
+	float: left;
+	overflow: auto;
+	width: 495px;
+	height: auto;
+	background-color: lightgrey;
+	margin: 10px 5px 10px 100px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
+}
+
+/*Article Container*/
+article{
+	height: 129px;
+	background-color: #777;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 15px;
+	margin-top: 20px;
+}
+
+/*Heading Tab*/
+#heading{
+	margin: 10px 15px 5px 15px;
+}
+
+/*Paragraph Tab*/
+#paragraph{
+	margin: 0px 15px 10px 15px;
+}
+
+/*Paragraph Tag Control*/
+p{	
+	background-color: lightgrey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+	
+
+/* Aside Box*/
+aside{
+	padding-top: 20px;
+	padding-bottom: 169px;
+	float: right;
+	width: 195px;
+	background-color: lightgrey;
+	margin: 10px 160px 10px 5px;
+}
+
+/*Footer*/
+.clear{
+	clear: both;
+
+}

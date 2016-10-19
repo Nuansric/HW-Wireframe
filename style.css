@@ -10,7 +10,7 @@ body{
 /*Full width tabs characteristic*/
 header, nav, footer{
 	width: 700px;
-	margin: 5px 160px 0px 100px;
+	margin: 5px 160px 0 100px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background-color: lightgrey;
@@ -26,7 +26,6 @@ section{
 	margin: 10px 5px 10px 100px;
 	padding-top: 20px;
 	padding-bottom: 5px;
-
 }
 
 /*Article Container*/
@@ -39,13 +38,9 @@ article{
 	margin-top: 20px;
 }
 
-/*Heading Tab*/
-#heading{
-	margin: 10px 15px 5px 15px;
-}
 
 /*Paragraph Tab*/
-#paragraph{
+#paragraphcontainer{
 	margin: 0px 15px 10px 15px;
 }
 
@@ -55,10 +50,24 @@ p{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-	
+
+/*Heading Container Control*/
+#headingcontainer{
+	background-color: lightgrey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px 15px 5px 15px;
+}
+/*Heading Properties*/
+h1, h2, h3{
+	display: inline;
+	font-size: 18px;
+	font-weight: normal;
+}
 
 /* Aside Box*/
 aside{
+	height: auto;
 	padding-top: 20px;
 	padding-bottom: 169px;
 	float: right;
